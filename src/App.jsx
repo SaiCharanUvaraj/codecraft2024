@@ -4,6 +4,7 @@ import Domain from "./pages/Domain";
 import Coord from "./pages/Coord";
 import "./App.css";
 import ParticlesComponent from "./components/Particles";
+import { Maps } from "./pages/Maps";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ParticlesComponent id="particles" />
       <Domain />
       <Coord /> 
+      <Maps />
       <Footer />
     </div>
   );
