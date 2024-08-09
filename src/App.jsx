@@ -1,7 +1,10 @@
+import { Contacts } from "./pages/Contacts";
 function App() {
   return (
     <>
-      <div className="">NIger anaa website</div>
+      <div className="">
+        <Contacts />
+      </div>
     </>
   );
 }
