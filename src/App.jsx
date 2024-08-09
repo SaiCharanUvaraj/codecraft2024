@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Domain from "./pages/Domain";
+import Home from "./pages/Home";
 import Coord from "./pages/Coord";
 import "./App.css";
 import ParticlesComponent from "./components/Particles";
@@ -11,6 +12,7 @@ function App() {
     <div>
       <Navbar />
       <ParticlesComponent id="particles" />
+      <Home /> 
       <Domain />
       <Coord /> 
       <Maps />
