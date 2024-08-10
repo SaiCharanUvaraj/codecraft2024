@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="text-white text-xl pt-24">
+    <footer className="text-white text-xl pt-24 w-full">
         <div className="bg-[#31363F] md:flex md:justify-between md:items-center p-5 grid place-items-center gap-5">
 
             <div className="grid place-items-center gap-1">

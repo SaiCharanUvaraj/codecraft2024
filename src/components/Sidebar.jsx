@@ -40,7 +40,7 @@ const Sidebar = () => {
                 <nav className="text-xl text-white font-bold flex space-x-10 pr-2">
                     <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('home')}>Home</button>
                     <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('prize')}>Prize</button>
-                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('domain')}>Domain</button>
+                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('domain')}>Domains</button>
                     <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('contact')}>Contact</button>
                     <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('instuction')}>Instructions</button>
                 </nav>
