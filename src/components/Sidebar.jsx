@@ -7,11 +7,16 @@ const Sidebar = () => {
     const toggleNav = () => {
             setTimeout(()=>setIsOpen(!isOpen),400)
         };
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+        };
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);    
     useEffect(() => {
         const handleResize = () => {
         setScreenWidth(window.innerWidth);
-        setScreenHeight(window.innerHeight);
         };
     
         window.addEventListener('resize', handleResize);
@@ -33,11 +38,11 @@ const Sidebar = () => {
             }
             {(!isOpen&&screenWidth>992) &&
                 <nav className="text-xl text-white font-bold flex space-x-10 pr-2">
-                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500">Home</button>
-                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500">Prize</button>
-                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500">Domain</button>
-                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500">Contacts</button>
-                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500">Instructions</button>
+                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('home')}>Home</button>
+                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('prize')}>Prize</button>
+                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('domain')}>Domain</button>
+                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('contact')}>Contact</button>
+                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('instuction')}>Instructions</button>
                 </nav>
             }
             {isOpen && 
@@ -51,11 +56,11 @@ const Sidebar = () => {
                         </button>
                     </div>
                     <nav className="p-5 text-2xl text-black font-bold grid place-items-center gap-5">
-                        <button className="transition-all duration-300 hover:scale-125 active:scale-95 hover:text-white">Home</button>
-                        <button className="transition-all duration-300 hover:scale-125 active:scale-95 hover:text-white">Prize</button>
-                        <button className="transition-all duration-300 hover:scale-125 active:scale-95 hover:text-white">Domains</button>
-                        <button className="transition-all duration-300 hover:scale-125 active:scale-95 hover:text-white">Contact</button>
-                        <button className="transition-all duration-300 hover:scale-125 active:scale-95 hover:text-white">Instuctions</button>
+                        <button className="transition-all duration-300 hover:scale-125 active:scale-95 hover:text-white" onClick={() => scrollToSection('home')}>Home</button>
+                        <button className="transition-all duration-300 hover:scale-125 active:scale-95 hover:text-white" onClick={() => scrollToSection('prize')}>Prize</button>
+                        <button className="transition-all duration-300 hover:scale-125 active:scale-95 hover:text-white" onClick={() => scrollToSection('domain')}>Domains</button>
+                        <button className="transition-all duration-300 hover:scale-125 active:scale-95 hover:text-white" onClick={() => scrollToSection('contact')}>Contact</button>
+                        <button className="transition-all duration-300 hover:scale-125 active:scale-95 hover:text-white" onClick={() => scrollToSection('instruction')}>Instuctions</button>
                     </nav>
                 </div>
             }

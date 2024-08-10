@@ -1,3 +1,4 @@
+import React from 'react';
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Domain from "./pages/Domain";
@@ -9,15 +10,15 @@ import { Maps } from "./pages/Maps";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <ParticlesComponent id="particles" />
-      <Home />
-      <Domain />
-      <Coord />
-      <Maps />
-      <Footer />
-    </div>
+      <div>
+        <Navbar />
+        <ParticlesComponent id="particles" />
+        <Home />
+        <Domain />
+        <Maps />
+        <Footer />
+      </div>
   );
 }
+
 export default App;

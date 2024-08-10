@@ -18,7 +18,7 @@ const Domain = () => {
         }
         ];
   return (
-    <div className="grid items-center justify-center">
+    <div className="grid items-center justify-center pt-20" id="domain">
         <p className="text-center text-5xl font-bold">Domains Available</p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 p-10">
             {cards.map((card,index) => <DomainCard key={index} title={card.title} description={card.description} image={card.image}/> ) }
