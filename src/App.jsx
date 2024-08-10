@@ -12,9 +12,9 @@ function App() {
     <div>
       <Navbar />
       <ParticlesComponent id="particles" />
-      <Home /> 
+      <Home />
       <Domain />
-      <Coord /> 
+      <Coord />
       <Maps />
       <Footer />
     </div>
