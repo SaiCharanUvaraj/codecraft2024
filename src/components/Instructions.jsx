@@ -1,37 +1,26 @@
-import React from 'react'
-import '../styles/Info.css'
-const Instructions = (props) => {
-    return (
-        
-        <div className=" max-w-md mx-auto p-4 mt-10">
-            <h1 className="text-white text-3xl font-bold mb-16 text-center">{props.title}</h1>
-            <div className="bgblue">
-                <div className="card">
-                <h2 className="text-white text-2xl font-semibold mb-2">{props.subheading}</h2>
-                <p className="text-white mb-8">{props.paragraph}</p>
-                </div>
-            </div>
-            <div className="bgblue">
-                <div className="card">
-                <h2 className="text-white text-2xl font-semibold mb-2">{props.subheading1}</h2>
-                <p className="text-white mb-8">{props.paragraph1}</p>
-                </div>
-            </div>
-            <div className="bgblue">
-                <div className="card">
-                <h2 className="text-white text-2xl font-semibold mb-2">{props.subheading2}</h2>
-                <p className="text-white mb-8">{props.paragraph2}</p>
-                </div>
-            </div>
-            <div className="bgblue">
-                <div className="card">
-                <h2 className="text-white text-2xl font-semibold mb-2">{props.subheading3}</h2>
-                <p className="text-white mb-8">{props.paragraph3}</p>
-                </div>
-            </div>
-        </div>
-                
-      );
-}
+import React from 'react';
 
-export default Instructions
+const Instructions = (props) => {
+  return (
+    
+    <div
+    className="flex flex-col items-center bg-transparent border-transparent rounded-lg md:flex-row md:max-w-xl dark:bg-gray-800 dark:hover:bg-gray-700 max-w-md mx-auto p-4 mt-10"
+    >
+      <img
+        className=" object-cover w-48 h-48 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+        src={props.imageUrl}
+        alt=""
+      />
+      <div className="flex flex-col justify-between p-4 leading-normal">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          {props.title}
+        </h5>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          {props.description}
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Instructions;
