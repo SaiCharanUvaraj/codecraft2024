@@ -7,33 +7,30 @@ const CountdownToSeptember = () => {
   const renderer = ({ days, hours, minutes, seconds }) => {
     return (
       <div className="flex flex-col justify-center items-center">
-        <div className="bg-[#5F85DB] rounded-lg p-4 text-center">
-          <div className="flex justify-center text-4xl font-bold text-white space-x-8">
-            <span className="flex flex-col items-center gap-4">
-              <span className="text-2xl">Days</span>
-              <span className="text-5xl">{days}</span>
-            </span>
-            <span className="flex flex-col items-center gap-4">
-              <span className="text-2xl">Hours</span>
-              <span className="text-5xl">{hours}</span>
-            </span>
-            <span className="flex flex-col items-center gap-4">
-              <span className="text-2xl">Minutes</span>
-              <span className="text-5xl">{minutes}</span>
-            </span>
-            <span className="flex flex-col items-center gap-4">
-              <span className="text-2xl">Seconds</span>
-              <span className="text-5xl">{seconds}</span>
-            </span>
+        <div className="flex justify-center space-x-8 mb-8">
+          <div className="bg-black border-2 border-white rounded-lg p-8 text-center w-30">
+            <span className="text-2xl text-white">Days</span>
+            <span className="text-5xl text-white block">{days}</span>
+          </div>
+          <div className="bg-black border-2 border-white rounded-lg p-8 text-center w-30">
+            <span className="text-2xl text-white">Hours</span>
+            <span className="text-5xl text-white block">{hours}</span>
+          </div>
+          <div className="bg-black border-2 border-white rounded-lg p-8 text-center w-30">
+            <span className="text-2xl text-white">Minutes</span>
+            <span className="text-5xl text-white block">{minutes}</span>
+          </div>
+          <div className="bg-black border-2 border-white rounded-lg p-8 text-center w-30">
+            <span className="text-2xl text-white">Seconds</span>
+            <span className="text-5xl text-white block">{seconds}</span>
           </div>
         </div>
         <button
-          className="bg-[#31363F] hover:bg-[#2f3640] transition duration-500 ease-in-out text-white font-bold text-3xl py-4 px-8 rounded-lg mt-8 shadow-lg hover:shadow-none hover:-translate-y-1 hover:drop-shadow"
+          className="bg-black hover:bg-gray-700 transition duration-500 ease-in-out text-white font-bold text-3xl py-4 px-12 rounded-lg mt-8 shadow-lg hover:shadow-none hover:-translate-y-1 hover:drop-shadow border-2 border-white"
           style={{
             '--tw-drop-shadow': '0 4px 0 rgba(255, 255, 255, 0.5)',
           }}
         >
-
           Register Now!
         </button>
       </div>
