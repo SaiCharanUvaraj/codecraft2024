@@ -1,8 +1,9 @@
 import DomainCard from "../components/DomainCard";
 
 import aniData1 from '../assets/Animation - 1723345948359.json';
-import aniData2 from '../assets/Animation - 1723346036691.json';
-import aniData3 from '../assets/Animation - 1723346095382.json';
+import aniData2 from '../assets/Animation - 1723346095382.json';
+import aniData3 from '../assets/Animation - 1723346036691.json';
+
 
 const Domain = () => {
     const cards=[
