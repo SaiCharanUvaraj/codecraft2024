@@ -4,10 +4,10 @@ const Instructions = (props) => {
   return (
     
     <div
-    className="flex flex-col items-center bg-transparent border-transparent rounded-lg md:flex-row md:max-w-xl dark:bg-gray-800 dark:hover:bg-gray-700 max-w-md mx-auto p-4 mt-10"
+    className="flex flex-col items-center bg-transparent border-transparent rounded-lg md:grid md:grid-cols-2 md:gap-x-4 md:gap-y-4 md:max-w-xl max-w-md mx-auto p-4 mt-10 text-justify"
     >
       <img
-        className=" object-cover w-48 h-48 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+        className="object-cover w-48 h-48 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
         src={props.imageUrl}
         alt=""
       />
@@ -20,6 +20,9 @@ const Instructions = (props) => {
         </p>
       </div>
     </div>
+
+    
+    
   );
 };
 
