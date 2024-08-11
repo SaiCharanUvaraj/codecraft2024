@@ -3,7 +3,7 @@ import '../styles/Info.css'
 const Instructions = (props) => {
     return (
         
-        <div id ="InfoSection" className=" max-w-md mx-auto p-4 mt-10">
+        <div className=" max-w-md mx-auto p-4 mt-10">
             <h1 className="text-white text-3xl font-bold mb-16 text-center">{props.title}</h1>
             <div className="bgblue">
                 <div className="card">

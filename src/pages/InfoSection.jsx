@@ -3,7 +3,7 @@ import Instructions from '../components/Instructions'
 
 const InfoSection = () => {
   return (
-    <div>
+    <div id="Infosection">
       <Instructions
         title="InfoSection"
         subheading="About The Event."
