@@ -8,6 +8,8 @@ import "./App.css";
 import ParticlesComponent from "./components/Particles";
 import { Maps } from "./pages/Maps";
 import InfoSection from './pages/InfoSection';
+import Count from './pages/Count';
+
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
         <Navbar />
         <ParticlesComponent id="particles" />
         <Home />
-
+        <Count />
       
         <Domain />
         <InfoSection />
