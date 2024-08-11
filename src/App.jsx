@@ -7,6 +7,7 @@ import Coord from "./pages/Coord";
 import "./App.css";
 import ParticlesComponent from "./components/Particles";
 import { Maps } from "./pages/Maps";
+import InfoSection from './pages/InfoSection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <ParticlesComponent id="particles" />
         <Home />
         <Domain />
+        <InfoSection />
         <Maps />
         <Footer />
       </div>
