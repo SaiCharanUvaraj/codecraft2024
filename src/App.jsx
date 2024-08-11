@@ -18,7 +18,7 @@ function App() {
 
       
         <Domain />
-        <InfoSection />
+        
         <Maps />
         <Footer />
       </div>
