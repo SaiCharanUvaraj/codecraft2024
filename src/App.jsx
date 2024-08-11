@@ -15,6 +15,8 @@ function App() {
         <Navbar />
         <ParticlesComponent id="particles" />
         <Home />
+
+      
         <Domain />
         <InfoSection />
         <Maps />
