@@ -8,21 +8,21 @@ const CountdownToSeptember = () => {
     return (
       <div className="flex flex-col justify-center items-center">
         <div className="flex justify-center space-x-8 mb-8">
-          <div className="bg-black border-2 border-white rounded-lg p-8 text-center w-30">
-            <span className="text-2xl text-white">Days</span>
-            <span className="text-5xl text-white block">{days}</span>
+          <div className="bg-black border-2 border-white rounded-lg p-4 text-center w-15">
+            <span className="text-1xl text-white">Days</span>
+            <span className="text-3xl text-white block">{days}</span>
           </div>
-          <div className="bg-black border-2 border-white rounded-lg p-8 text-center w-30">
-            <span className="text-2xl text-white">Hours</span>
-            <span className="text-5xl text-white block">{hours}</span>
+          <div className="bg-black border-2 border-white rounded-lg p-4 text-center w-15">
+            <span className="text-1xl text-white">Hours</span>
+            <span className="text-3xl text-white block">{hours}</span>
           </div>
-          <div className="bg-black border-2 border-white rounded-lg p-8 text-center w-30">
-            <span className="text-2xl text-white">Minutes</span>
-            <span className="text-5xl text-white block">{minutes}</span>
+          <div className="bg-black border-2 border-white rounded-lg p-4 text-center w-15">
+            <span className="text-1xl text-white">Minutes</span>
+            <span className="text-3xl text-white block">{minutes}</span>
           </div>
-          <div className="bg-black border-2 border-white rounded-lg p-8 text-center w-30">
-            <span className="text-2xl text-white">Seconds</span>
-            <span className="text-5xl text-white block">{seconds}</span>
+          <div className="bg-black border-2 border-white rounded-lg p-4 text-center w-15">
+            <span className="text-1xl text-white">Seconds</span>
+            <span className="text-3xl text-white block">{seconds}</span>
           </div>
         </div>
         <button
