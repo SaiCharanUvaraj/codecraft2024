@@ -7,8 +7,8 @@ export function DomainCard(props) {
     <Card
   className="max-w-sm flex flex-col items-center"
 >
-  <div className="w-full h-48 flex justify-center">
-    <Lottie animationData={props.animationData} loop={true} />
+  <div className="w-full h-48 flex justify-center z-0">
+    <Lottie animationData={props.animationData} loop={true} style={{ zIndex: 0 }} />
   </div>
   <div className="w-full h-10 flex flex-col justify-center">
     <div className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
