@@ -3,7 +3,7 @@ import Count from './Count';
 
 function Home() {
   return (
-    <div className='md:flex items-center justify-center gap-x-20 text-white pt-32 p-6 h-screen' id="home">
+    <div className='md:flex items-center justify-center gap-x-20 text-white pt-32 pb-2 p-6 h-screen' id="home">
       <div className='p-5 w-3/4'>
         <p className='font-serif text-white text-9xl text-center hover:text-orange-700 duration-75'>CODECRAFT</p>
         <br></br>

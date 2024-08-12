@@ -9,6 +9,7 @@ import ParticlesComponent from "./components/Particles";
 import { Maps } from "./pages/Maps";
 import InfoSection from './pages/InfoSection';
 import Count from './pages/Count';
+import Prize from './pages/Prize';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
         <Navbar />
         <ParticlesComponent id="particles" />
         <Home />
-
+        <Prize />
         <Domain />
         <InfoSection />
         <Maps />
