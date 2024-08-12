@@ -17,13 +17,13 @@ const Footer = () => {
             <div className="grid place-items-center gap-1">
                 <p className="text-center">Get connected with us through</p>
                 <div className="flex pt-4 space-x-6">
-                    <a href="https://www.instagram.com/mtechcsesairam/" className="hover:scale-125 active:scale-95 transition-all duration-300">
+                    <a href="https://www.instagram.com/mtechcsesairam/" className="hover:scale-125 active:scale-95 transition-all duration-150 rounded-full">
                         <FaInstagramSquare />
                     </a>
-                    <a href="https://www.facebook.com/SairamEnggMtechCSE/" className="hover:scale-125 active:scale-95 transition-all duration-300">
+                    <a href="https://www.facebook.com/SairamEnggMtechCSE/" className="hover:scale-125 active:scale-95 transition-all duration-150">
                         <FaFacebookSquare />
                     </a>
-                    <a href="https://in.linkedin.com/in/sairam-m-tech-cse-794733229" className="hover:scale-125 active:scale-95 transition-all  duration-300">
+                    <a href="https://in.linkedin.com/in/sairam-m-tech-cse-794733229" className="hover:scale-125 active:scale-95 transition-all  duration-150">
                         <FaLinkedin />
                     </a>
                 </div>
