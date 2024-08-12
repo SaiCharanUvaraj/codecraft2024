@@ -21,6 +21,7 @@ function App() {
         <Prize />
         <Domain />
         <InfoSection />
+      
         <Maps />
         <Footer />
       </div>
