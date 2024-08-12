@@ -26,17 +26,17 @@ const imageData = [
 
 const InfoSection = () => {
   return (
-    <div className="flex flex-col justify-center items-center mx-auto mt-32 mb-4">
-  <h2 className="text-3xl font-bold mb-4 text-white text-center">Instructions</h2>
-  {imageData.map((data) => (
-    <Instructions
-      key={data.title}
-      title={data.title}
-      imageUrl={data.imageUrl}
-      description={data.description}
-      className="mb-8" 
-    />
-  ))}
+  <div className="grid place-items-center mx-auto mt-32">
+    <h2 className="text-3xl font-bold text-white text-center">Instructions</h2>
+      {imageData.map((item, index) => (
+        <Instructions
+          key={index}
+          imageUrl={item.imageUrl}
+          title={item.title}
+          description={item.description}
+          reverse={index % 2 === 1}
+        />
+      ))}
 
 </div>
   );

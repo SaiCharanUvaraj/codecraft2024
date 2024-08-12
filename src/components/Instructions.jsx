@@ -5,14 +5,14 @@ const Instructions = ({ imageUrl, title, description, reverse }) => {
 
   return (
   <div
-    className={`flex ${flexDir} max-w-4xl mx-auto p-8 mt-16 items-center bg-transparent border-transparent rounded-lg md:grid md:grid-cols-2 md:gap-x-36 md:gap-y-4 md:max-w-xl text-justify`}
+    className={`flex ${flexDir} w-full max-w-4xl mx-auto p-8 items-center bg-transparent border-transparent rounded-lg md:grid md:grid-cols-2 md:gap-x-36 md:gap-y-4 md:max-w-xl text-justify`}
   >
     <img
       className="object-cover w-48 h-48 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
       src={imageUrl}
       alt={title}
     />
-    <div className="flex flex-col justify-between p-4 leading-normal">
+    <div className="w-48 flex flex-col justify-between p-4 leading-normal">
       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         {title}
       </h5>
