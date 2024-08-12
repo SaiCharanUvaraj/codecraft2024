@@ -3,13 +3,12 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
-        <footer className="bg-white/5 backdrop-blur-xl border-t-2 border-white/15 md:flex md:justify-between md:items-center p-2 grid place-items-center gap-5 text-white text-xl w-full">
+        <footer className="bg-white/5 backdrop-blur-xl border-t-2 border-white/15 md:flex md:justify-between md:items-center grid place-items-center gap-5 text-white text-xl w-full p-5">
 
             <div className="grid place-items-center gap-1">
                 <a href="https://sairam.edu.in/">
                     <img src="https://www.innovatia23.tech/sec-logo-white.png" className="w-30 h-20 rounded-xl"/>
                 </a>
-                <p className="text-center">Sai Leo Nagar, West Tambaram, Chennai - 600044</p>
             </div>
 
             <p className="font-extralight text-lg text-center">Copyrights © 2024. All rights reserved.</p>

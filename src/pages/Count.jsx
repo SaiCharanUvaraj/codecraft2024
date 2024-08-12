@@ -4,8 +4,7 @@ import Countdown from '../components/Countdown'
 const Count = () => {
   return (
     <div>
-        <Countdown />
-        
+        <Countdown />       
     </div>
   )
 }
