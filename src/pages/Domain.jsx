@@ -2,7 +2,7 @@ import DomainCard from "../components/DomainCard";
 
 import aniData1 from '../assets/Animation - 1723345948359.json';
 import aniData2 from '../assets/Animation - 1723346095382.json';
-import aniData3 from '../assets/Animation - 1723346036691.json';
+import aniData3 from '../assets/Animation - 1723453838766.json';
 
 
 const Domain = () => {
@@ -25,7 +25,7 @@ const Domain = () => {
         ];
   return (
     <div className="grid place-items-center pt-28 w-full" id="domain">
-        <p className="text-center text-3xl font-bold text-white pb-5">Domains Available</p>
+        <p className="text-center text-3xl font-bold text-white pb-5">Domains</p>
         <div className="grid md:grid-cols-3 place-items-center gap-5 md:px-10 px-2">
             {cards.map((card,index) => <DomainCard key={index} title={card.title} description={card.description} animationData={card.animationData}/> ) }
         </div>

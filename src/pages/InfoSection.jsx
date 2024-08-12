@@ -26,8 +26,8 @@ const imageData = [
 
 const InfoSection = () => {
   return (
-    <div className="flex flex-col justify-center items-center mx-auto mt-8 mb-8 gap-4">
-      <h2 className="text-3xl font-bold mb-4 text-white text-center">Info Section</h2>
+    <div className="flex flex-col justify-center items-center mx-auto mt-32 mb-8">
+      <h2 className="text-3xl font-bold mb-4 text-white text-center">Instructions</h2>
       {imageData.map((data) => (
         <Instructions
           key={data.title}
