@@ -1,24 +1,17 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from 'react';
 
-const Prize = () => {
+const PrizePool = () => {
   return (
-    <div >
-        <Navbar/>
-        <div style={{
-        backgroundImage: 'url("https://img.freepik.com/free-vector/realistic-oscars-film-awards-background_23-2151250619.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722902400&semt=ais_hybrid")',
-      }} 
-      id='cover-screen' className=' img flex justify-center align-middle  items-center h-screen bg-cover bg-no-repeat text-white'>
-            <div className='p-20'>
-                <h1 className='text-7xl  text-center p-2'>Prize Pool</h1>
-                <p className='text-center pt-9 '>Welcome to our Prize Pool section! <br />You can find all the exciting details about the rewards and prizes up for grabs in our events.</p>
-            </div>
-        </div>
-        <div className='p-5'>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis obcaecati, perferendis, quibusdam labore quia ipsum, illum tempora porro culpa magni animi hic facere vel harum excepturi odit magnam. Quod, corrupti.</p>
-        </div>
+    <div className="bg-transparent flex flex-col items-center justify-center">
+      <div
+        className="bg-cover bg-center h-48 w-96 rounded-lg bg-no-repeat"
+        style={{
+          backgroundImage: 'url("https://cdn5.vectorstock.com/i/1000x1000/11/24/trophy-wealth-prize-money-on-sport-winner-podium-vector-12231124.jpg")',
+        }}
+      />
+      <p className="text-white font-bold text-5xl mt-8">PRIZE POOL of Rs 15000!!</p>
     </div>
-  )
-}
+  );
+};
 
-export default Prize
+export default PrizePool;
