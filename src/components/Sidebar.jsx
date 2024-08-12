@@ -46,7 +46,7 @@ const Sidebar = () => {
                     <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('Infosection')}>Instructions</button>
                 </nav>
             }
-            <div className={`bg-white/5 backdrop-blur-xl lg:w-1/5 md:w-1/4 sm:w-1/3 w-1/2 h-screen fixed top-0 right-0 rounded-l-3xl transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-500 ease-in-out`}>
+            <div className={`bg-white/10 backdrop-blur-2xl lg:w-1/5 md:w-1/4 sm:w-1/3 w-1/2 h-screen fixed top-0 right-0 rounded-l-3xl transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-500 ease-in-out`}>
                 <div className="flex justify-end p-5">
                     <button onClick={toggleNav} className="transition-all duration-300 hover:text-white text-black hover:scale-125 active:scale-90">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.0" stroke="currentColor" className="w-10">
