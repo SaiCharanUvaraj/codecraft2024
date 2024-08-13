@@ -4,7 +4,7 @@ const PrizePool = () => {
   const [showPrizes, setShowPrizes] = useState(false);
 
   return (
-    <div className="bg-none h-screen mt-10 px-6 flex flex-col items-center justify-center " id="prize">
+    <div className="bg-none h-screen  flex flex-col items-center justify-center " id="prize">
       <h2 className="text-4xl md:text-6xl text-yellow-400 font-extrabold mb-8 text-center">
         Prize Pool of <span className="text-white">₹15,000</span>
       </h2>

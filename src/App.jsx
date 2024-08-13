@@ -3,40 +3,48 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Domain from "./pages/Domain";
 import Home from "./pages/Home";
-import Coord from "./pages/Coord";
-import "./App.css";
-import ParticlesComponent from "./components/Particles";
 import { Maps } from "./pages/Maps";
 import InfoSection from './pages/InfoSection';
-import Count from './pages/Count';
 import Prize from './pages/Prize';
-import Sponsors from './pages/Sponsors'
+import Sponsors from './pages/Sponsors';
 import { Stdcoord } from './pages/Stdcoord';
 import CustomizedTimeline from './pages/Timeline';
+import ParticlesComponent from "./components/Particles";
+import "./App.css";
 
 function App() {
   return (
-      <div>
-        <Navbar />
-        <div className='p-4'>
+    <div className='hideSc'>
+      <Navbar />
+      <div className='p-4'>
         <ParticlesComponent id="particles" />
-        <div className='pt-20 md:pt-0'>
-        <Home />
+        <div className='md:pt-0'>
+          <Home />
         </div>
-        {/* <Count /> */}
-        <Prize />
-        <Domain />
-        {/* <Coord /> */}
-        <div className=''>
+        <div className="my-8"> {/* Adjust spacing */}
+          <Prize />
+        </div>
+        <div className="my-8"> {/* Adjust spacing */}
+          <Domain />
+        </div>
+        <div className="my-2"> {/* Adjust spacing */}
           <InfoSection />
         </div>
-        <CustomizedTimeline/>
-        <Stdcoord />
-        <Sponsors />
-        <Maps />
+        <div className="my-8"> {/* Adjust spacing */}
+          <CustomizedTimeline />
         </div>
-        <Footer />
+        <div className="my-8"> {/* Adjust spacing */}
+          <Stdcoord />
+        </div>
+        <div className="my-8"> {/* Adjust spacing */}
+          <Sponsors />
+        </div>
+        <div className="my-20"> {/* Adjust spacing */}
+          <Maps />
+        </div>
       </div>
+      <Footer />
+    </div>
   );
 }
 

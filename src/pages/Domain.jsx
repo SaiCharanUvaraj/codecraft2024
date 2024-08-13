@@ -27,10 +27,10 @@ const Domain = () => {
   ];
   return (
     <div
-      className="flex flex-col  justify-center items-center w-full h-screen"
+      className="flex flex-col mt-56 justify-center items-center w-full h-screen"
       id="domain"
     >
-      <p className="text-center text-3xl font-bold text-white mb-4 mt-8">Domains</p>
+      <p className="text-center text-3xl font-bold text-white ">Domains</p>
       <div className="grid md:grid-cols-3 place-items-center gap-5 px-2">
         {cards.map((card, index) => (
           <DomainCard

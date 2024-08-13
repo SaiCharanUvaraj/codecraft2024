@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+function Sponsors() {
   return (
     <div style={{
       display: 'flex',
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default Sponsors;

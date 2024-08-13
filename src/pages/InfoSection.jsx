@@ -38,8 +38,8 @@ const imageData = [
 
 const InfoSection = () => {
   return (
-    <div className="flex flex-col mx-auto w-[90%]" id="instruction">
-      <h2 className=" font-bold text-white text-center text-6xl mt-32">Instructions</h2>
+    <div className="flex flex-col mx-auto w-[90%] mt-56" id="instruction">
+      <h2 className=" font-bold text-white text-center text-6xl ">Instructions</h2>
       {imageData.map((item, index) => (
         <Instructions
           key={index}
@@ -48,7 +48,7 @@ const InfoSection = () => {
           animationData={item.animationData}
           title={item.title}
           description={item.description}
-          reverse={index % 2 !== 0} // Reverse the layout for odd-indexed items
+          reverse={index % 2 !== 0} 
         />
       ))}
     </div>

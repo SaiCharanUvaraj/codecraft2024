@@ -73,7 +73,7 @@ const timelineEvents = [
 
 export default function CustomizedTimeline() {
   return (
-    <div className="h-screen mt-20" >
+    <div className="h-screen " >
       <div className="text-white flex justify-center m-5 mr-2  font-semibold items-baseline text-6xl">
         <p>Timeline</p>
       </div>
