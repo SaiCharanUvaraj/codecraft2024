@@ -3,7 +3,7 @@ import Faculty from '../components/Faculty';
 
 const Coord = () => {
   return (
-    <div className='text-white'>
+    <div className='text-white pt-24' id="contact">
       <h1 className='text-center text-3xl font-bold p-5'>Contacts</h1>
       <h1 className='text-center text-2xl font-bold'>Faculty Coordinators</h1>
       <div>
