@@ -10,7 +10,7 @@ import { Maps } from "./pages/Maps";
 import InfoSection from './pages/InfoSection';
 import Count from './pages/Count';
 import Prize from './pages/Prize';
-
+import Sponsors from './pages/Sponsors'
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
         <Domain />
         <Coord />
         <InfoSection />
+        <Sponsors />
         <Maps />
         </div>
         <Footer />
