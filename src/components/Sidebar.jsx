@@ -43,7 +43,7 @@ const Sidebar = () => {
                     <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('prize')}>Prize</button>
                     <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('domain')}>Domains</button>
                     <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('contact')}>Contact</button>
-                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('Infosection')}>Instructions</button>
+                    <button className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500" onClick={() => scrollToSection('instruction')}>Instructions</button>
                 </nav>
             }
             <div className={`bg-white/15 backdrop-blur-2xl lg:w-1/5 md:w-1/4 sm:w-1/3 w-1/2 h-screen fixed top-0 right-0 rounded-l-3xl transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-500 ease-in-out`}>
