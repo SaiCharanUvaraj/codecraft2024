@@ -18,6 +18,7 @@ function App() {
         <Navbar />
         <ParticlesComponent id="particles" />
         <Home />
+        <Count />
         <Prize />
         <Domain />
         <InfoSection />
