@@ -25,6 +25,7 @@ function App() {
         <Prize />
         <Domain />
         <Coord />
+        <Stdcoord />
         <InfoSection />
         <Sponsors />
         <Maps />
