@@ -26,7 +26,7 @@ const CountdownToSeptember = () => {
   
     return (
       <div className="flex flex-col justify-center items-center">
-        <div className="flex justify-center space-x-8 mb-8">
+        <div className="flex justify-center space-x-4 mb-8">
           {time.map((item, index) => (
             <div key={index} className="bg-black border-2 border-white rounded-lg p-4 text-center w-15">
               <span className="text-1xl text-white">{item.label}</span>
