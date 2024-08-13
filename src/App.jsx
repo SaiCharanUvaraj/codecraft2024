@@ -16,13 +16,17 @@ function App() {
   return (
       <div>
         <Navbar />
+        <div className='p-4'>
         <ParticlesComponent id="particles" />
+        <div className='pt-20'>
         <Home />
+        </div>
         <Count />
         <Prize />
         <Domain />
         <InfoSection />
         <Maps />
+        </div>
         <Footer />
       </div>
   );
