@@ -24,6 +24,7 @@ function App() {
         <Count />
         <Prize />
         <Domain />
+        <Coord />
         <InfoSection />
         <Maps />
         </div>
