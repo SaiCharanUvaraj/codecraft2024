@@ -1,6 +1,7 @@
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaYoutubeSquare } from "react-icons/fa";
 const Footer = () => {
   return (
         <footer className="bg-white/5 backdrop-blur-xl border-t-2 border-white/15 md:flex md:justify-between md:items-center grid place-items-center gap-5 text-white text-xl w-full p-5">
@@ -24,6 +25,9 @@ const Footer = () => {
                     </a>
                     <a href="https://in.linkedin.com/in/sairam-m-tech-cse-794733229" className="hover:scale-125 active:scale-95 transition-all  duration-150">
                         <FaLinkedin />
+                    </a>
+                    <a href="http://www.youtube.com/@sairam-m.tech-cse5yearinte455" className="hover:scale-125 active:scale-95 transition-all  duration-150">
+                        <FaYoutubeSquare />
                     </a>
                 </div>
             </div>
