@@ -2,7 +2,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutubeSquare } from "react-icons/fa";
-const Footer = () => {
+const   Footer = () => {
   return (
         <footer className="bg-white/5 backdrop-blur-xl border-t-2 border-white/15 md:flex md:justify-between md:items-center grid place-items-center gap-5 text-white text-xl w-full p-5">
 

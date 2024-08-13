@@ -48,7 +48,7 @@ const InfoSection = () => {
           animationData={item.animationData}
           title={item.title}
           description={item.description}
-          reverse={index % 2 !== 0} // Reverse the layout for odd-indexed items
+          reverse={index % 2 !== 0} 
         />
       ))}
     </div>
