@@ -11,6 +11,7 @@ import InfoSection from './pages/InfoSection';
 import Count from './pages/Count';
 import Prize from './pages/Prize';
 import Sponsors from './pages/Sponsors'
+import { Stdcoord } from './pages/Stdcoord';
 
 function App() {
   return (
