@@ -35,7 +35,7 @@ const CountdownToSeptember = () => {
           ))}
         </div>
         <button
-          className="bg-black hover:bg-gray-700 transition duration-500 ease-in-out text-white font-bold text-3xl py-4 px-12 rounded-lg mt-8 shadow-lg hover:shadow-none hover:-translate-y-1 hover:drop-shadow border-2 border-white"
+          className="bg-black hover:bg-[#DC5F00] transition duration-500 text-white font-bold text-3xl py-4 px-12 rounded-lg mt-8 shadow-lg hover:-translate-y-3 border-2 border-white active:scale-95 hover:scale-105"
           style={{
             '--tw-drop-shadow': '0 4px 0 rgba(255, 255, 255, 0.5)',
           }}

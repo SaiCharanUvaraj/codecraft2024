@@ -11,6 +11,7 @@ import { Stdcoord } from './pages/Stdcoord';
 import CustomizedTimeline from './pages/Timeline';
 import ParticlesComponent from "./components/Particles";
 import "./App.css";
+import Venue from './pages/Venue';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
         </div>
         <div className="my-8"> {/* Adjust spacing */}
           <Sponsors />
+        </div>
+        <div className="my-20"> {/* Adjust spacing */}
+          <Venue />
         </div>
         <div className="my-20"> {/* Adjust spacing */}
           <Maps />

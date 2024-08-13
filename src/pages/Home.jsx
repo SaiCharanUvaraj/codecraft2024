@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="text-white" id="home">
       <div className="justify-center items-center  md:flex h-screen flex-col flex">
-        <img className=" p-4 w-[60%]" src={logo} alt="" />
+        <img className=" p-4 w-[99%] md:w-[80%]" src={logo} alt="" />
         <Count />
       </div>
     </div>
