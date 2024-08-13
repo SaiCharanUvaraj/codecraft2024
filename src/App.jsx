@@ -20,16 +20,18 @@ function App() {
         <Navbar />
         <div className='p-4'>
         <ParticlesComponent id="particles" />
-        <div className='pt-20'>
+        <div className='pt-20 md:pt-0'>
         <Home />
         </div>
-        <Count />
+        {/* <Count /> */}
         <Prize />
         <Domain />
-        <Coord />
+        {/* <Coord /> */}
+        <div className=''>
+          <InfoSection />
+        </div>
         <Stdcoord />
         <CustomizedTimeline/>
-        <InfoSection />
         <Sponsors />
         <Maps />
         </div>

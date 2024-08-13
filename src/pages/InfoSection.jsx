@@ -1,42 +1,57 @@
 import React from 'react';
 import Instructions from '../components/Instructions';
+import domain from '../assets/domain.json';
+import food from '../assets/food.json';
+import info from '../assets/info.json';
+import keyboard from '../assets/keyboard.json';
 
 const imageData = [
   {
     title: 'Event Info',
-    imageUrl: '/src/assets/event_2680503.png',
     description: 'This is a 48 Hour Hackathon conducted by Mtech Dept of Sri Sairam Engineering College. They can use AI and other tools to fasten their workflow.',
+    animationData: info,
+    width: 40,
+    height: 80
   },
   {
     title: 'Bring All Peripherals',
-    imageUrl: '/src/assets/keyboard-mouse_11915643.png',
     description: 'Our college has ethernet connections only, so remember to bring ethernet cable, Chargers, Mouse, Keyboard, and other periperals you might need.',
+    animationData: keyboard,
+    width: 30,
+    height: 90
   },
   {
     title: 'On Spot Domain',
-    imageUrl: '/src/assets/innovation_9751820.png',
     description: 'Participants will be given onspot topics to work for the hackathon, for the domains, webdev, appdev and AI. Any prior work done for the hackathon will not be accepted.',
+    animationData: domain,
+    width: 30,
+    height: 80
   },
   {
     title: 'Food and Refreshment',
-    imageUrl: '/src/assets/bibimbap_2276931.png',
     description: 'Sufficient Refreshment will be provided for the participants. Lunch will be provided. Lunch timing will be 1 hour.',
+    animationData: food,
+    width: 30,
+    height: 80
   },
 ];
 
 const InfoSection = () => {
   return (
-  <div className="flex flex-col mx-auto pt-32 w-[90%]" id="instruction">
-    <h2 className="text-3xl font-bold text-white text-center">Instructions</h2>
+    <div className="flex flex-col mx-auto w-[90%]" id="instruction">
+      <h2 className=" font-bold text-white text-center text-6xl mt-32">Instructions</h2>
       {imageData.map((item, index) => (
         <Instructions
-          imageUrl={item.imageUrl}
+          key={index}
+          width={item.width}
+          height={item.height}
+          animationData={item.animationData}
           title={item.title}
           description={item.description}
+          reverse={index % 2 !== 0} // Reverse the layout for odd-indexed items
         />
       ))}
-
-</div>
+    </div>
   );
 };
 

@@ -19,7 +19,7 @@ const Sidebar = () => {
     <div>
       <button
         onClick={toggleNav}
-        className="lg:hidden transition-all duration-300 hover:text-[#5F85DB] text-white hover:scale-125 active:scale-90"
+        className="lg:hidden transition-all duration-300 hover:text-[#5F85DB] text-white hover:scale-105 active:scale-90"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ const Sidebar = () => {
           (section) => (
             <button
               key={section}
-              className="transition-all duration-300 hover:-translate-y-2 hover:scale-110 active:scale-95 hover:text-blue-500"
+              className="transition-all duration-300  hover:scale-125 hover:-translate-y-1 active:scale-95 hover:text-blue-500"
               onClick={() => scrollToSection(section)}
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}

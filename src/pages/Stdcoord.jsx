@@ -3,7 +3,7 @@ import Std from '../components/Std'
 
 export const Stdcoord = () => {
   return (
-    <div className='text-white'>
+    <div className='text-white m-5 p-5'>
         <h1 className='text-3xl text-center font-semibold pt-5'>Student Co-Ordinator</h1>
         <div className='md:flex md:justify-center  text-center pt-5 gap-16 '>
             <div>
