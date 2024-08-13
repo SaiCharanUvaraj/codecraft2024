@@ -8,11 +8,7 @@ function App() {
       alignItems: 'center',
       backgroundColor: '#000'
     }}>
-      <h1 style={{
-        color: '#fff',
-        fontWeight: 'bold',
-        fontSize: 50,
-      }}>
+      <h1 className="text-6xl font-semibold text-white pt-24" id="sponsors">
         Sponsors
       </h1>
     </div>

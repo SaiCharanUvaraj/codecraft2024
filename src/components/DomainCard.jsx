@@ -8,13 +8,11 @@ export function DomainCard(props) {
       className="max-w-sm flex flex-col items-center p-4"
       style={{
         backgroundColor: "transparent",
-        border: "2px solid",
-        borderRadius: "8px",
-        borderImage: "linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82) 1",
-        animation: "changeGradient 2s ease-in-out infinite"
+        border: "#AAAAAA 2px solid",
+        borderRadius: "8px"
       }}
     >
-      <div className="w-full h-48 flex justify-center z-0">
+      <div className="w-full h-48 flex justify-center z-0 pb-2">
         <Lottie animationData={props.animationData} loop={true} style={{ zIndex: 0 }} />
       </div>
       <div className="w-full h-10 flex flex-col justify-center items-center">
@@ -23,7 +21,7 @@ export function DomainCard(props) {
         </div>
       </div>
       <div className="w-full h-24 flex flex-col justify-center">
-        <div className="font-normal text-gray-700 dark:text-gray-400">
+        <div className="font-normal text-center text-gray-700 dark:text-gray-400">
           {props.description}
         </div>
       </div>

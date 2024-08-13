@@ -39,7 +39,7 @@ const imageData = [
 const InfoSection = () => {
   return (
     <div className="flex flex-col mx-auto w-[90%]" id="instruction">
-      <h2 className=" font-bold text-white text-center text-6xl mt-32">Instructions</h2>
+      <h2 className="font-semibold text-white text-center text-6xl mt-32">Instructions</h2>
       {imageData.map((item, index) => (
         <Instructions
           key={index}
