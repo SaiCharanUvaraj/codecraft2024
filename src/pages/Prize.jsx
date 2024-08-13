@@ -4,7 +4,7 @@ const PrizePool = () => {
   const [showPrizes, setShowPrizes] = useState(false);
 
   return (
-    <div className="bg-black py-12 px-6 flex flex-col items-center justify-center">
+    <div className="bg-none py-12 px-6 flex flex-col items-center justify-center pt-24" id="prize">
       <h2 className="text-6xl text-yellow-400 font-extrabold mb-8 text-center">
         Prize Pool of <span className="text-white">₹15,000</span>
       </h2>
@@ -19,25 +19,25 @@ const PrizePool = () => {
       {showPrizes && (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl">
           {/* 1st Prize */}
-          <div className="bg-gradient-to-r from-yellow-500 to-orange-500 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+          <div className="animate-gradient bg-gradient-to-r from-[#C22435] via-[#C22435] to-[#EF7A1C] p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105 duration-500">
             <h3 className="text-4xl text-white font-bold mb-4 text-center">1st Prize</h3>
             <p className="text-5xl text-white text-center font-extrabold">₹6,000</p>
           </div>
 
           {/* 2nd Prize */}
-          <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+          <div className="animate-gradient bg-gradient-to-r from-[#C22435] via-[#C22435] to-[#EF7A1C] p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105 duration-500">
             <h3 className="text-4xl text-white font-bold mb-4 text-center">2nd Prize</h3>
             <p className="text-5xl text-white text-center font-extrabold">₹4,000</p>
           </div>
 
           {/* 3rd Prize */}
-          <div className="bg-gradient-to-r from-blue-500 to-indigo-500 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+          <div className="animate-gradient bg-gradient-to-r from-[#C22435] via-[#C22435] to-[#EF7A1C] p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105 duration-500">
             <h3 className="text-4xl text-white font-bold mb-4 text-center">3rd Prize</h3>
             <p className="text-5xl text-white text-center font-extrabold">₹2,000</p>
           </div>
 
           {/* Domain-wise Prizes */}
-          <div className="bg-gradient-to-r from-green-500 to-teal-500 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+          <div className="animate-gradient bg-gradient-to-r from-[#C22435] via-[#C22435] to-[#EF7A1C] p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105 duration-500">
             <h3 className="text-4xl text-white font-bold mb-4 text-center">Domain Winners</h3>
             <p className="text-5xl text-white text-center font-extrabold">₹1,000 each</p>
             <p className="text-lg text-gray-200 text-center mt-2">Total 3 Domains</p>
@@ -46,7 +46,7 @@ const PrizePool = () => {
       )}
 
       {/* Early Bird Offer Section */}
-      <div className="mt-12 p-6 bg-gradient-to-r from-green-400 to-green-600 rounded-xl shadow-lg text-center transform transition-transform hover:scale-110">
+      <div className="mt-12 p-6 bg-white/15 backdrop-blur-xl border-2 border-white/15 rounded-xl shadow-lg text-center transform transition-transform hover:scale-110">
         <p className="text-5xl text-white font-extrabold mb-4 tracking-wide">
           Early Bird Offer
         </p>
@@ -61,7 +61,7 @@ const PrizePool = () => {
       </div>
 
       {/* Standard Registration Fee Section */}
-      <div className="mt-8 p-6 bg-gradient-to-r from-gray-800 to-gray-900 rounded-xl shadow-lg text-center transform transition-transform hover:scale-110">
+      <div className="mt-8 p-6 bg-white/15 backdrop-blur-xl border-2 border-white/15 rounded-xl shadow-lg text-center transform transition-transform hover:scale-110">
         <p className="text-5xl text-white font-extrabold mb-4 tracking-wide">
           Registration Fees
         </p>

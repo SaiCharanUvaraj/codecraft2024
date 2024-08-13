@@ -1,22 +1,27 @@
 .App {
-    text-align: center;
-  }
-  
-  #particles canvas {
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
+  text-align: center;
+}
 
-  @keyframes changeGradient {
-    0% {
-      border-image-slice: 1;
-      border-image-width: 2px;
-    }
-    100% {
-      border-image-slice: 1;
-      border-image-width: 2px;
-      border-image-transform: rotate(360deg);
-    }
+#particles canvas {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-animation 2s ease infinite;
+}
