@@ -11,12 +11,18 @@
 
   @keyframes changeGradient {
     0% {
-      border-image-slice: 1;
-      border-image-width: 2px;
+      border-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82) 1;
+    }
+    25% {
+      border-image: linear-gradient(60deg, #5073b8, #1098ad, #07b39b, #6fba82, #f79533, #f37055, #ef4e7b, #a166ab) 1;
+    }
+    50% {
+      border-image: linear-gradient(60deg, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82, #f79533, #f37055, #ef4e7b) 1;
+    }
+    75% {
+      border-image: linear-gradient(60deg, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82, #f79533, #f37055) 1;
     }
     100% {
-      border-image-slice: 1;
-      border-image-width: 2px;
-      border-image-transform: rotate(360deg);
+      border-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82) 1;
     }
   }
