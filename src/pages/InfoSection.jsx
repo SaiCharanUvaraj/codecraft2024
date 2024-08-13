@@ -30,11 +30,9 @@ const InfoSection = () => {
     <h2 className="text-3xl font-bold text-white text-center">Instructions</h2>
       {imageData.map((item, index) => (
         <Instructions
-          key={index}
           imageUrl={item.imageUrl}
           title={item.title}
           description={item.description}
-          reverse={index % 2 === 1}
         />
       ))}
 
