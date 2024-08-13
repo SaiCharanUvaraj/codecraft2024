@@ -12,6 +12,7 @@ import Count from './pages/Count';
 import Prize from './pages/Prize';
 import Sponsors from './pages/Sponsors'
 import { Stdcoord } from './pages/Stdcoord';
+import CustomizedTimeline from './pages/Timeline';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Domain />
         <Coord />
         <Stdcoord />
+        <CustomizedTimeline/>
         <InfoSection />
         <Sponsors />
         <Maps />
