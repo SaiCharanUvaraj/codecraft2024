@@ -24,7 +24,7 @@ export const Stdcoord = () => {
             <br />
             <div>
                 <Std 
-                name="xxxxxx" 
+                name="Yogesh M" 
                 email="sec21cj0xx@sairamtap.edu.in"
                 no="+91 xxxxx xxxxx"
                 />

@@ -7,64 +7,69 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import FastfoodIcon from "@mui/icons-material/Fastfood";
-import LaptopMacIcon from "@mui/icons-material/LaptopMac";
-import HotelIcon from "@mui/icons-material/Hotel";
 import RepeatIcon from "@mui/icons-material/Repeat";
 import Typography from "@mui/material/Typography";
+import CelebrationIcon from '@mui/icons-material/Celebration';
+import RestaurantIcon from '@mui/icons-material/Restaurant';
+import HourglassTopIcon from '@mui/icons-material/HourglassTop';
+import HourglassBottomIcon from '@mui/icons-material/HourglassBottom';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import WavingHandIcon from '@mui/icons-material/WavingHand';
+import StartIcon from '@mui/icons-material/Start';
 
 const timelineEvents = [
   {
     time: "9:30 am",
-    icon: <FastfoodIcon />,
+    icon: <StartIcon />,
     title: "Reporting",
     dotColor: "primary",
     connectorColor: "default"
   },
   {
     time: "10:00 am",
-    icon: <LaptopMacIcon />,
+    icon: <CelebrationIcon />,
     title: "Inaugural",
     dotColor: "primary",
     connectorColor: "default"
   },
   {
     time: "11:00 am",
-    icon: <HotelIcon color="white" />,
+    icon: <HourglassTopIcon />,
     title: "Countdown Starts!",
     dotColor: "primary",
     connectorColor: "secondary.main"
   },
   {
     time: "12:30 pm - 1:30 pm",
-    icon: <RepeatIcon />,
+    icon: <FastfoodIcon />,
     title: "Lunch",
     dotColor: "secondary",
     connectorColor: "secondary.main"
   },
   {
     time: "8:00 pm",
-    icon: <RepeatIcon />,
+    icon: <RestaurantIcon />,
     title: "Dinner",
     dotColor: "secondary",
     connectorColor: "secondary.main"
   },
   {
     time: "11:00 am",
-    icon: <RepeatIcon />,
-    title: "Countdown Ends",
+    icon: <HourglassBottomIcon />,
+    title: "Countdown Ends!",
     dotColor: "secondary",
     connectorColor: "secondary.main"
   },
   {
     time: "11:30 am",
-    icon: <RepeatIcon />,
+    icon: <EmojiEventsIcon />,
     title: "Valedictory",
     dotColor: "secondary",
     connectorColor: "secondary.main"
   },
   {
     time: "12:00 pm",
-    icon: <RepeatIcon />,
+    icon: <WavingHandIcon />,
     title: "Code Craft Ends!!",
     dotColor: "secondary",
     connectorColor: "secondary.main"
