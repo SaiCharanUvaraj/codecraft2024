@@ -5,7 +5,7 @@ import { Card } from "flowbite-react";
 export function DomainCard(props) {
   return (
     <Card
-      className="max-w-sm flex flex-col items-center"
+      className="max-w-sm flex flex-col items-center p-4"
       style={{
         backgroundColor: "transparent",
         border: "2px solid",
@@ -17,7 +17,7 @@ export function DomainCard(props) {
       <div className="w-full h-48 flex justify-center z-0">
         <Lottie animationData={props.animationData} loop={true} style={{ zIndex: 0 }} />
       </div>
-      <div className="w-full h-10 flex flex-col justify-center">
+      <div className="w-full h-10 flex flex-col justify-center items-center">
         <div className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {props.title}
         </div>

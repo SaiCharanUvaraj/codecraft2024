@@ -30,8 +30,8 @@ function App() {
         <div className=''>
           <InfoSection />
         </div>
-        <Stdcoord />
         <CustomizedTimeline/>
+        <Stdcoord />
         <Sponsors />
         <Maps />
         </div>

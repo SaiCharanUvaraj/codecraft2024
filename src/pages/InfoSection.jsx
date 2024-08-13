@@ -11,7 +11,7 @@ const imageData = [
     description: 'This is a 48 Hour Hackathon conducted by Mtech Dept of Sri Sairam Engineering College. They can use AI and other tools to fasten their workflow.',
     animationData: info,
     width: 40,
-    height: 80
+    height: 110
   },
   {
     title: 'Bring All Peripherals',
