@@ -6,12 +6,12 @@ function App() {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      height: '100vh',
       backgroundColor: '#000'
     }}>
       <h1 style={{
         color: '#fff',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        fontSize: 50,
       }}>
         Sponsors
       </h1>
