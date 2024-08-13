@@ -10,6 +10,7 @@ import { Maps } from "./pages/Maps";
 import InfoSection from './pages/InfoSection';
 import Count from './pages/Count';
 import Prize from './pages/Prize';
+import { Stdcoord } from './pages/Stdcoord';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Prize />
         <Domain />
         <Coord />
+        <Stdcoord />
         <InfoSection />
         <Maps />
         </div>
