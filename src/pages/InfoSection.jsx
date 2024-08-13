@@ -26,7 +26,7 @@ const imageData = [
 
 const InfoSection = () => {
   return (
-  <div className="grid place-items-center mx-auto mt-32">
+  <div className="flex flex-col mx-auto mt-32 w-[90%] ">
     <h2 className="text-3xl font-bold text-white text-center">Instructions</h2>
       {imageData.map((item, index) => (
         <Instructions

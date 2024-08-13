@@ -8,3 +8,15 @@
     width: 100%;
     position: absolute;
   }
+
+  @keyframes changeGradient {
+    0% {
+      border-image-slice: 1;
+      border-image-width: 2px;
+    }
+    100% {
+      border-image-slice: 1;
+      border-image-width: 2px;
+      border-image-transform: rotate(360deg);
+    }
+  }
