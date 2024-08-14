@@ -22,7 +22,7 @@ const timelineEvents = [
     time: "9:30 am",
     icon: <StartIcon />,
     title: "Reporting",
-    dotColor: "primary",
+    dotColor: "secondary",
     connectorColor: "default"
   },
   {
@@ -36,14 +36,14 @@ const timelineEvents = [
     time: "11:00 am",
     icon: <HourglassTopIcon />,
     title: "Countdown Starts!",
-    dotColor: "primary",
+    dotColor: "secondary",
     connectorColor: "secondary.main"
   },
   {
     time: "12:30 pm - 1:30 pm",
     icon: <FastfoodIcon />,
     title: "Lunch",
-    dotColor: "secondary",
+    dotColor: "primary",
     connectorColor: "secondary.main"
   },
   {
@@ -57,7 +57,7 @@ const timelineEvents = [
     time: "11:00 am",
     icon: <HourglassBottomIcon />,
     title: "Countdown Ends!",
-    dotColor: "secondary",
+    dotColor: "primary",
     connectorColor: "secondary.main"
   },
   {
@@ -71,7 +71,7 @@ const timelineEvents = [
     time: "12:00 pm",
     icon: <WavingHandIcon />,
     title: "Code Craft Ends!!",
-    dotColor: "secondary",
+    dotColor: "primary",
     connectorColor: "secondary.main"
   }
 ];
