@@ -39,6 +39,7 @@ const CountdownToSeptember = () => {
           style={{
             '--tw-drop-shadow': '0 4px 0 rgba(255, 255, 255, 0.5)',
           }}
+          onClick={() => window.open("https://forms.gle/jW9sEwHFxs56a2f1A", "_blank")}
         >
           Register Now!
         </button>
