@@ -9,7 +9,6 @@ export const Stdcoord = () => {
             <div>
                 <Std 
                 name="Guru Sanjay" 
-                email="sec21cj0xx@sairamtap.edu.in"
                 no="+91 90032 68427"
                 />
             </div>
@@ -17,7 +16,6 @@ export const Stdcoord = () => {
             <div>
                 <Std 
                 name="Kamalesh Kumar Saravanan" 
-                email="sec21cj0xx@sairamtap.edu.in"
                 no="+91 70014 00312"
                 />
             </div>
@@ -25,16 +23,29 @@ export const Stdcoord = () => {
             <div>
                 <Std 
                 name="Yogesh M" 
-                email="sec21cj0xx@sairamtap.edu.in"
-                no="+91 xxxxx xxxxx"
+                no="+91 87545 12892"
+                />
+            </div>
+        </div>
+        <div className='md:flex md:justify-center  text-center pt-10 gap-16 '>
+            <div>
+                <Std 
+                name="Ruthi Shankari" 
+                no="+91 94863 08851"
                 />
             </div>
             <br />
             <div>
                 <Std 
-                name="xxxxxx" 
-                email="sec21cj0xx@sairamtap.edu.in"
-                no="+91 xxxxx xxxxx"
+                name="Shrivani" 
+                no="+91 75502 40499"
+                />
+            </div>
+            <br />
+            <div>
+                <Std 
+                name="Shahana Devi" 
+                no="+91 80151 35548"
                 />
             </div>
         </div>
