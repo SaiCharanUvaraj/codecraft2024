@@ -12,6 +12,7 @@ import CustomizedTimeline from './pages/Timeline';
 import ParticlesComponent from "./components/Particles";
 import "./App.css";
 import Venue from './pages/Venue';
+import Coord from './pages/Coord';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         </div>
         <div className="my-8"> {/* Adjust spacing */}
           <Domain />
+        </div>
+        <div className='my-8'>
+          <Coord />
         </div>
         <div className="my-2"> {/* Adjust spacing */}
           <InfoSection />
