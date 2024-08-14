@@ -10,10 +10,10 @@ const Instructions = ({ animationData, title, description, reverse, width, heigh
         <Lottie animationData={animationData} />
       </div>
       <div className={`flex flex-col md:justify-between p-10 md:w-1/2 ${reverse ? 'text-right' : 'text-left'}`}>
-        <h5 className="text-left mb-2 text-4xl font-bold md:tracking-tight text-gray-900 dark:text-white">
+        <h5 className="text-center mb-2 text-4xl font-bold md:tracking-tight text-gray-900 dark:text-white">
           {title}
         </h5>
-        <p className="font-normal text-2xl text-gray-700 dark:text-gray-400 text-left md:text-justify">
+        <p className="font-normal text-2xl text-gray-700 dark:text-gray-400 text-center md:text-justify">
           {description}
         </p>
       </div>
