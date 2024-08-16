@@ -8,7 +8,7 @@ export const Stdcoord = () => {
         <div className='md:flex md:justify-center  text-center pt-5 gap-16 '>
             <div>
                 <Std 
-                name="Guru Sanjay" 
+                name="Guru Sanjay R K" 
                 no="+91 90032 68427"
                 />
             </div>
@@ -30,7 +30,7 @@ export const Stdcoord = () => {
         <div className='md:flex md:justify-center  text-center pt-10 gap-16 '>
             <div>
                 <Std 
-                name="Ruthi Shankari" 
+                name="Ruthi Shankari S"  
                 no="+91 94863 08851"
                 />
             </div>
@@ -44,7 +44,7 @@ export const Stdcoord = () => {
             <br />
             <div>
                 <Std 
-                name="Shahana Devi" 
+                name="Shahana Devi V" 
                 no="+91 80151 35548"
                 />
             </div>
