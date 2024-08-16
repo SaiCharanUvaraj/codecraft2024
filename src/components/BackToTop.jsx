@@ -27,12 +27,12 @@ function BackToTop() {
   return (
     <div
       className={`fixed bottom-5 right-5 z-50 transition-opacity duration-500 ease-in-out ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+        isVisible ? "opacity-100 translate-y-0" : "opacity-0"
       }`}
     >
       <div className="flex flex-col justify-center items-center">
         <button
-          className="p-3 bg-[#DD4416] text-white rounded-full shadow-lg hover:bg-[#e66e4a] transition duration-500 ease-in-out hover:scale-110"
+          className="p-2 bg-[#DD4416] text-white rounded-full shadow-lg hover:bg-[#e66e4a] transition duration-500 ease-in-out hover:scale-110"
           onClick={scrollToTop}
         >
           <ArrowUpwardIcon/>
