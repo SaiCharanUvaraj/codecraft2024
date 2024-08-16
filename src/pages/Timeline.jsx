@@ -10,17 +10,17 @@ import FastfoodIcon from "@mui/icons-material/Fastfood";
 import RepeatIcon from "@mui/icons-material/Repeat";
 import Typography from "@mui/material/Typography";
 import CelebrationIcon from '@mui/icons-material/Celebration';
-import RestaurantIcon from '@mui/icons-material/Restaurant';
+import RestaurantIcon from '@mui/icons-material/Restaurant';import ReviewsIcon from '@mui/icons-material/Reviews';
 import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 import HourglassBottomIcon from '@mui/icons-material/HourglassBottom';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import WavingHandIcon from '@mui/icons-material/WavingHand';
-import StartIcon from '@mui/icons-material/Start';
+import HailIcon from '@mui/icons-material/Hail';
 
 const timelineEvents = [
   {
     time: "9:30 am",
-    icon: <StartIcon />,
+    icon: <HailIcon />,
     title: "Reporting",
     dotColor: "secondary",
     connectorColor: "default"
@@ -40,16 +40,29 @@ const timelineEvents = [
     connectorColor: "secondary.main"
   },
   {
-    time: "12:30 pm - 1:30 pm",
+    time: "1:30 pm - 2:30 pm",
     icon: <FastfoodIcon />,
     title: "Lunch",
     dotColor: "primary",
+    connectorColor: "secondary.main"
+  }, {
+    time: "5:00 pm",
+    icon: <ReviewsIcon/>,
+    title: "Review",
+    dotColor: "secondary",
     connectorColor: "secondary.main"
   },
   {
     time: "8:00 pm",
     icon: <RestaurantIcon />,
     title: "Dinner",
+    dotColor: "primary",
+    connectorColor: "secondary.main"
+  },
+  {
+    time: "12:00 am",
+    icon: <ReviewsIcon/>,
+    title: "Review",
     dotColor: "secondary",
     connectorColor: "secondary.main"
   },
