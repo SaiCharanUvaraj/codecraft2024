@@ -28,14 +28,14 @@ const CountdownToSeptember = () => {
       <div className="flex flex-col justify-center items-center">
         <div className="flex justify-center space-x-4 mb-8">
           {time.map((item, index) => (
-            <div key={index} className="bg-black border-2 border-white rounded-lg p-4 text-center w-15">
+            <div key={index} className="bg-black border-2 font-outfit border-white rounded-lg p-4 text-center w-15">
               <span className="text-1xl text-white">{item.label}</span>
               <span className="text-3xl text-white block">{item.value}</span>
             </div>
           ))}
         </div>
         <button
-          className="bg-black hover:bg-[#DC5F00] transition duration-500 text-white font-bold text-3xl py-4 px-12 rounded-lg mt-8 shadow-lg hover:-translate-y-3 border-2 border-white active:scale-95 hover:scale-105"
+          className="bg-black hover:bg-[#DC5F00] transition duration-500 text-white font-bold font-outfit text-3xl py-4 px-12 rounded-lg mt-8 shadow-lg hover:-translate-y-3 border-2 border-white active:scale-95 hover:scale-105"
           style={{
             '--tw-drop-shadow': '0 4px 0 rgba(255, 255, 255, 0.5)',
           }}

@@ -79,10 +79,10 @@ const timelineEvents = [
 export default function CustomizedTimeline() {
   return (
     <div className="pt-24" >
-      <div className="text-white flex justify-center m-5 mr-2  font-semibold items-baseline text-6xl">
+      <div className="text-white flex justify-center m-5 mr-2  font-semibold items-baseline text-6xl font-outfit">
         <p>Timeline</p>
       </div>
-      <div className="p-5">
+      <div className="p-5 ">
         <Timeline position="alternate">
           {timelineEvents.map((event, index) => (
             <TimelineItem key={index}>
@@ -91,6 +91,7 @@ export default function CustomizedTimeline() {
                 align={index % 2 === 0 ? "right" : "left"}
                 variant="body2"
                 color="white"
+                fontFamily={"monospace"}
               >
                 {event.time}
               </TimelineOppositeContent>
@@ -102,7 +103,7 @@ export default function CustomizedTimeline() {
                 <TimelineConnector sx={{ bgcolor: event.connectorColor }} />
               </TimelineSeparator>
               <TimelineContent sx={{ py: "12px", px: 2 }} color={"white"}>
-                <Typography variant="h6" component="span">
+                <Typography variant="h6" component="span" fontFamily={"revert"}>
                   {event.title}
                 </Typography>
               </TimelineContent>

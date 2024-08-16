@@ -7,39 +7,40 @@ import keyboard from '../assets/keyboard.json';
 
 const imageData = [
   {
-    title: 'Event Info',
-    description: 'This is a 48 Hour Hackathon conducted by Mtech Dept of Sri Sairam Engineering College. They can use AI and other tools to fasten their workflow.',
+    title: 'Hackathon Overview',
+    description: 'Join our 24-hour hackathon organized by the M.Tech Department of Sri Sairam Engineering College. Participants can utilize AI and other advanced tools to enhance their productivity and innovation.',
     animationData: info,
     width: 40,
     height: 110
   },
   {
-    title: 'Bring All Peripherals',
-    description: 'Our college has ethernet connections only, so remember to bring ethernet cable, Chargers, Mouse, Keyboard, and other periperals you might need.',
+    title: 'Essential Equipment',
+    description: 'Ensure to bring all necessary peripherals like ethernet cables, chargers, mouse, keyboard, and any other items you may need.',
     animationData: keyboard,
     width: 30,
     height: 90
   },
   {
-    title: 'On Spot Domain',
-    description: 'Participants will be given onspot topics to work for the hackathon, for the domains, webdev, appdev and AI. Any prior work done for the hackathon will not be accepted.',
+    title: 'Challenge Domains',
+    description: 'Participants will receive their challenge topics on the day of the event. Domains include Web Development, App Development, and AI. Pre-prepared projects will not be accepted.',
     animationData: domain,
     width: 30,
     height: 80
   },
   {
-    title: 'Food and Refreshment',
-    description: 'Sufficient Refreshment will be provided for the participants. Lunch will be provided. Lunch timing will be 1 hour.',
+    title: 'Meals & Refreshments',
+    description: 'We’ve got you covered with meals and refreshments throughout the event.',
     animationData: food,
     width: 30,
     height: 80
   },
 ];
 
+
 const InfoSection = () => {
   return (
     <div className="flex flex-col mx-auto w-[90%]" id="instruction">
-      <h2 className="font-semibold text-white text-center text-6xl mt-32">Instructions</h2>
+      <h2 className="font-semibold text-white text-center text-6xl mt-32 font-outfit">Instructions</h2>
       {imageData.map((item, index) => (
         <Instructions
           key={index}
