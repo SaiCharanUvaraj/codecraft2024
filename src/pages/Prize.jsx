@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import aniData3 from "../assets/Animation - 1723819147229.json";
+import Lottie from "lottie-react";
 
 const PrizePool = () => {
-
   return (
-    <div className="bg-none mt-10 px-6 flex flex-col items-center justify-center pt-40" id="Prize">
+    <div
+      className="bg-none mt-10 px-6 flex flex-col items-center justify-center pt-40"
+      id="Prizes"
+    >
       <h2 className="text-4xl md:text-6xl text-yellow-400 font-extrabold mb-8 text-center font-outfit">
         Prize Pool of <span className="text-white">₹10,000+</span>
       </h2>
@@ -11,16 +15,16 @@ const PrizePool = () => {
       <div className="grid place-items-center gap-5 md:gap-10 items-center justify-center mt-8">
         {[
           {
-            title: 'Early Bird Offer',
-            amount: '₹300/team',
-            subText: '(Limited to first 20 teams)',
-            extraText: 'Hurry! Offer valid for a limited time only.',
+            title: "Early Bird Offer",
+            amount: "₹300/team",
+            subText: "(Limited to first 25 teams)",
+            extraText: "Hurry! Offer valid for a limited time only.",
           },
-          {
-            title: 'Registration Fees',
-            amount: '₹500/team',
-            subText: '(After Early Bird Offer)',
-          },
+          // {
+          //   title: 'Registration Fees',
+          //   amount: '₹400/team',
+          //   subText: '(After Early Bird Offer)',
+          // },
         ].map((offer, index) => (
           <div
             key={index}
@@ -29,7 +33,7 @@ const PrizePool = () => {
             <p className="text-3xl md:text-5xl text-white font-extrabold mb-2 md:mb-4 tracking-wide font-outfit">
               {offer.title}
             </p>
-            <div className="flex flex-col items-center font-outfit">
+            <div className="flex flex-col items-center font-outfit relative">
               <p className="text-3xl md:text-4xl text-yellow-200 font-bold">
                 {offer.amount}
               </p>
@@ -42,6 +46,12 @@ const PrizePool = () => {
                 </p>
               )}
             </div>
+            <Lottie
+              animationData={aniData3}
+              loop={true}
+              style={{ zIndex: 0 }}
+              className="w-20 h-20 md:w-28 md:h-28 absolute -top-10 -right-[5.5rem]"
+            />
           </div>
         ))}
       </div>

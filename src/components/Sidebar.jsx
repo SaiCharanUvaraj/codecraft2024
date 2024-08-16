@@ -1,4 +1,4 @@
-import { useState} from "react";
+import { useState } from "react";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +38,7 @@ const Sidebar = () => {
       </button>
 
       <nav className="hidden lg:flex text-xl text-white font-bold space-x-10 pr-2">
-        {["Home", "Prizes", "Domains","Contact Us","Instructions"].map(
+        {["Home", "Prizes", "Domains", "Instructions", "Contact Us"].map(
           (section) => (
             <button
               key={section}
@@ -78,7 +78,7 @@ const Sidebar = () => {
           </button>
         </div>
         <nav className=" text-5xl pb-32 bg-black h-screen text-white font-bold flex flex-col items-center justify-center gap-10  ">
-          {["Home", "Prizes", "Domains","Contact Us","Instructions"].map(
+          {["Home", "Prizes", "Domains", "Instructions", "Contact Us"].map(
             (section) => (
               <button
                 key={section}

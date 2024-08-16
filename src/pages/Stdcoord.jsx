@@ -37,8 +37,8 @@ export const Stdcoord = () => {
             <br />
             <div>
                 <Std 
-                name="Shrivani" 
-                no="+91 75502 40499"
+                name="Sneha V" 
+                no="+91 73055 00879"
                 />
             </div>
             <br />

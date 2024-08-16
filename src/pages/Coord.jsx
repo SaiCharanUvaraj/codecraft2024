@@ -11,7 +11,8 @@ const Coord = () => {
           <div>
             <Faculty 
               src="https://www.innovatia23.tech/yuvaraj.jpeg" 
-              name="Prof.G.Yuvaraj" 
+              name="G.Yuvaraj" 
+              prof = "Assistant Professor"
               post="Co-Ordinator" 
               email="qwer@gmail.com"
             />
@@ -19,7 +20,8 @@ const Coord = () => {
           <div>
             <Faculty 
               src="https://www.innovatia23.tech/Shiny.jpg" 
-              name="Prof.A.Shiny" 
+              name="A.Shiny" 
+              prof = "Assistant Professor"
               post="Co-Ordinator" 
               email="qwer@gmail.com"
             />
