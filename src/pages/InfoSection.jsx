@@ -14,7 +14,7 @@ const imageData = [
     height: 110
   },
   {
-    title: 'Essential Equipment',
+    title: 'Essential Equipments',
     description: 'Ensure to bring all necessary peripherals like ethernet cables, chargers, mouse, keyboard, and any other items you may need.',
     animationData: keyboard,
     width: 30,

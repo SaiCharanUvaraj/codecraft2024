@@ -1,5 +1,5 @@
 import { ReactLenis } from "@studio-freight/react-lenis";
-
+import BackToTop from "./BackToTop";
 function SmoothScroller({ children }) {
   // lenis options for configuration
   const lenisOptions = {
@@ -12,6 +12,7 @@ function SmoothScroller({ children }) {
   return (
     <ReactLenis root options={lenisOptions}>
       {children}
+      <BackToTop/>
     </ReactLenis>
   );
 }
