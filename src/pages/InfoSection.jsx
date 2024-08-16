@@ -22,7 +22,7 @@ const imageData = [
   },
   {
     title: 'Challenge Domains',
-    description: 'Participants will receive their challenge topics on the day of the event. Domains include Web Development, App Development, and AI. Pre-prepared projects will not be accepted.',
+    description: 'Participants will receive their challenge topics on the day of the event. Domains include Web Development, App Development, Aritificial Intelligence and Blockchain Development. Pre-prepared projects will not be accepted.',
     animationData: domain,
     width: 30,
     height: 80

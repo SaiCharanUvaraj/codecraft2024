@@ -26,7 +26,7 @@ function BackToTop() {
 
   return (
     <div
-      className={`fixed bottom-32 right-5 z-50 transition-opacity duration-500 ease-in-out ${
+      className={`fixed bottom-32 right-12 md:right-5 z-50 transition-opacity duration-500 ease-in-out ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0"
       }`}
     >
@@ -37,7 +37,7 @@ function BackToTop() {
         >
           <ArrowUpwardIcon />
         </button>
-        <p className="font-xs font-Montserrat text-white">Back To Top</p>
+        <p className="hidden md:font-xs md:font-Montserrat md:text-white">Back To Top</p>
       </div>
     </div>
   );
