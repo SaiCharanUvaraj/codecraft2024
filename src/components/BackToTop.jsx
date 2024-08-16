@@ -32,10 +32,10 @@ function BackToTop() {
     >
       <div className="flex flex-col justify-center items-center">
         <button
-          className="p-3 bg-[#DD4416] text-white rounded-full shadow-lg hover:bg-[#e66e4a] transition duration-500 ease-in-out hover:scale-105"
+          className="p-3 bg-[#DD4416] text-white rounded-full shadow-lg hover:bg-[#e66e4a] transition duration-500 ease-in-out hover:scale-110"
           onClick={scrollToTop}
         >
-          <ArrowUpwardIcon />
+          <ArrowUpwardIcon/>
         </button>
         <p className="font-xs font-Montserrat text-white">Back To Top</p>
       </div>
