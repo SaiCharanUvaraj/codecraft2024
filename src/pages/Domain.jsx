@@ -33,7 +33,7 @@ const Domain = () => {
   return (
     <div
       className="flex flex-col  justify-center items-center pt-24"
-      id="domain"
+      id="Domains"
     >
       <p className="text-center text-6xl font-semibold text-white pb-10 mt-8 font-outfit">Domains</p>
       <div className="grid md:grid-cols-4 place-items-center gap-5 px-2">

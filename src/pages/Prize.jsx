@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const PrizePool = () => {
 
   return (
-    <div className="bg-none mt-10 px-6 flex flex-col items-center justify-center pt-40" id="prize">
+    <div className="bg-none mt-10 px-6 flex flex-col items-center justify-center pt-40" id="Prize">
       <h2 className="text-4xl md:text-6xl text-yellow-400 font-extrabold mb-8 text-center font-outfit">
         Prize Pool of <span className="text-white">₹10,000+</span>
       </h2>
