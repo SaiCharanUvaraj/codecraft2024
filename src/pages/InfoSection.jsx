@@ -8,7 +8,7 @@ import keyboard from '../assets/keyboard.json';
 const imageData = [
   {
     title: 'Hackathon Overview',
-    description: 'Join our 24-hour hackathon organized by the M.Tech Department of Sri Sairam Engineering College. Participants can utilize AI and other advanced tools to enhance their productivity and innovation.',
+    description: 'Join our 24-hour hackathon organized by the M.Tech CSE Department of Sri Sairam Engineering College. Participants can utilize AI and other advanced tools to enhance their productivity and innovation.',
     animationData: info,
     width: 40,
     height: 110
