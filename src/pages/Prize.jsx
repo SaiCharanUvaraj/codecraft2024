@@ -50,7 +50,7 @@ const PrizePool = () => {
               animationData={aniData3}
               loop={true}
               style={{ zIndex: 0 }}
-              className="w-20 h-20 md:w-28 md:h-28 absolute -top-10 -right-[5.5rem]"
+              className="w-20 h-20 md:w-28 md:h-28 hidden md:block absolute -top-10 -right-[5.5rem]"
             />
           </div>
         ))}
