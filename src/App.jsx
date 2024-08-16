@@ -16,7 +16,7 @@
 
   function App() {
     return (
-      <div className='hideSc'>
+      <div className='select-none'>
         <Navbar />
         <div className='p-4'>
           <ParticlesComponent id="particles" />
