@@ -42,7 +42,7 @@
             <Stdcoord />
           </div>
           <div className="my-8"> {/* Adjust spacing */}
-            <Sponsors />
+            {/* <Sponsors /> */}
           </div>
           <div className="my-20"> {/* Adjust spacing */}
             <Venue />
