@@ -8,6 +8,7 @@ function Home() {
         <img className=" p-4 w-[99%] md:w-[80%]" src={logo} alt="" />
         <Count />
       </div>
+      
     </div>
   );
 }

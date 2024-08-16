@@ -2,9 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-
+import SmoothScroller from './components/SmoothScroller.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <SmoothScroller>
+      <App />
+    </SmoothScroller>
   </React.StrictMode>,
 )
