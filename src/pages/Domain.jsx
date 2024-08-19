@@ -25,7 +25,7 @@ const Domain = () => {
         "Develop intelligent systems using the latest in AI and machine learning.",
     },{
       animationData: blockchain,
-      title: "Blockchain Development",
+      title: "Cyber Security",
       description:
         "Develop intelligent systems using the latest in Cryptography and Blockchain.",
     },
