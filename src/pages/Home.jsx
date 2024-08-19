@@ -8,7 +8,7 @@ function Home() {
         <img className=" p-4 w-[99%] md:w-[80%]" src={logo} alt="" />
         <Count />
       </div>
-      
+      <h1 className="text-center text-2xl p-5">Students From Sri Sairam Group Of Institution Are NOT ALLOWED To Paticipate !</h1>
     </div>
   );
 }
