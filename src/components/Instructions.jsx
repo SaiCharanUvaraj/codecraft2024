@@ -13,7 +13,7 @@ const Instructions = ({ animationData, title, description, reverse, width, heigh
         <h5 className="mb-2 text-4xl font-bold md:tracking-tight text-gray-900 dark:text-white font-outfit text-left md:text-left">
           {title}
         </h5>
-        <p className="font-normal text-2xl text-gray-700 dark:text-gray-400 text-left md:text-justify font-Montserrat">
+        <p className="tracking-tighter md:tracking-normal font-normal text-2xl text-gray-700 dark:text-gray-400 text-justify md:text-justify font-Montserrat">
           {description}
         </p>
       </div>
