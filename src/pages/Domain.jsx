@@ -27,7 +27,7 @@ const Domain = () => {
       animationData: blockchain,
       title: "Cyber Security",
       description:
-        "Develop intelligent systems using the latest in Cryptography and Blockchain.",
+        "Create secure systems with advanced Cryptography and Cybersecurity techniques",
     },
   ];
   return (
