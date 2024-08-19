@@ -8,7 +8,7 @@ function Home() {
         <img className=" p-4 w-[99%] md:w-[80%]" src={logo} alt="" />
         <Count />
       </div>
-      <h1 className="text-center text-2xl font-semibold p-5">Only Students From Colleges Other Than Sairam Institution Are Allowed To Participate In The Event!</h1>
+      <h1 className="text-center text-2xl font-semibold p-5">Only Students From Colleges Other Than Sairam Institutions Are Allowed To Participate In The Event!</h1>
     </div>
   );
 }
