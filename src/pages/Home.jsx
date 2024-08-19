@@ -8,7 +8,15 @@ function Home() {
         <img className=" p-4 w-[99%] md:w-[80%]" src={logo} alt="" />
         <Count />
       </div>
-      <h1 className="text-center text-2xl font-semibold p-5">Only Students From Colleges Other Than Sairam Institutions Are Allowed To Participate In The Event!</h1>
+      <h1 className="font-outfit text-justify md:text-2xl md:font-semibold md:mx-80">
+        Note:{" "}
+        <span className="font-thin">
+          Participation in the event is exclusively open to students from
+          colleges other than <b>Sairam Institutions</b>. However, rest assured
+          that we'll be organizing events specifically for Sairam students in
+          the near future.
+        </span>
+      </h1>
     </div>
   );
 }

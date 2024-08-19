@@ -5,7 +5,7 @@ import Lottie from "lottie-react";
 const PrizePool = () => {
   return (
     <div
-      className="bg-none mt-10 px-6 flex flex-col items-center justify-center pt-40"
+      className="bg-none mt-10 px-6 flex flex-col items-center justify-center"
       id="Prizes"
     >
       <h2 className="text-4xl md:text-6xl text-yellow-400 font-extrabold mb-8 text-center font-outfit">
