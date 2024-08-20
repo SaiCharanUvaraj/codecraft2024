@@ -12,7 +12,7 @@ function Home() {
         Note:{" "}
         <span className="font-thin">
           Participation in the event is exclusively open to students from
-          colleges other than <b>Sairam Institutions</b>. However, rest assured
+          colleges other than <b>Sri Sairam Engineering College</b>. However, rest assured
           that we'll be organizing events specifically for Sairam students in
           the near future.
         </span>
