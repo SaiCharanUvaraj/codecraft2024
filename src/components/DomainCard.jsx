@@ -16,12 +16,12 @@ export function DomainCard(props) {
         <Lottie animationData={props.animationData} loop={true} style={{ zIndex: 0 }} />
       </div>
       <div className="w-full h-10 flex flex-col justify-center items-center">
-        <div className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white font-outfit">
+        <div className="text-2xl font-bold tracking-tight text-white font-outfit">
           {props.title}
         </div>
       </div>
       <div className="w-full h-24 flex flex-col justify-center font-Montserrat">
-        <div className="font-normal text-center text-gray-700 dark:text-gray-400">
+        <div className="font-normal text-center text-gray-400">
           {props.description}
         </div>
       </div>
