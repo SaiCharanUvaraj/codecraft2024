@@ -14,17 +14,18 @@ const PrizePool = () => {
 
       <div className="grid place-items-center gap-5 md:gap-10 items-center justify-center mt-8">
         {[
-          {
-            title: "Early Bird Offer",
-            amount: "₹300/team",
-            subText: "(Limited to first 25 teams)",
-            extraText: "Hurry! Offer valid for a limited time only.",
-          },
           // {
-          //   title: 'Registration Fees',
-          //   amount: '₹400/team',
-          //   subText: '(After Early Bird Offer)',
-          // },
+          //   title: "Early Bird Offer",
+          //   amount: "₹300/team",
+          //   subText: "",
+          //   extraText: "Hurry! Only a limited number of seats remain.",
+          //},
+           {
+             title: 'Registration Fees',
+             amount: '₹400/team',
+             subText: '',
+             extraText: "Hurry! Only a limited number of seats remain.",
+           },
         ].map((offer, index) => (
           <div
             key={index}
@@ -46,12 +47,12 @@ const PrizePool = () => {
                 </p>
               )}
             </div>
-            <Lottie
-              animationData={aniData3}
-              loop={true}
-              style={{ zIndex: 0 }}
-              className="w-20 h-20 md:w-28 md:h-28 hidden md:block absolute -top-10 -right-[5.5rem]"
-            />
+           // <Lottie
+          //  animationData={aniData3}
+          //  loop={true}
+          //  style={{ zIndex: 0 }}
+          //  className="w-20 h-20 md:w-28 md:h-28 hidden md:block absolute -top-10 -right-[5.5rem]"
+          // />
           </div>
         ))}
       </div>
