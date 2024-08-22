@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import aniData3 from "../assets/Animation - 1723819147229.json";
-import Lottie from "lottie-react";
 
 const PrizePool = () => {
   return (
@@ -47,12 +45,12 @@ const PrizePool = () => {
                 </p>
               )}
             </div>
-           // <Lottie
-          //  animationData={aniData3}
-          //  loop={true}
-          //  style={{ zIndex: 0 }}
-          //  className="w-20 h-20 md:w-28 md:h-28 hidden md:block absolute -top-10 -right-[5.5rem]"
-          // />
+            {/* <Lottie
+            animationData={aniData3}
+            loop={true}
+            style={{ zIndex: 0 }}
+            className="w-20 h-20 md:w-28 md:h-28 hidden md:block absolute -top-10 -right-[5.5rem]"
+           /> */}
           </div>
         ))}
       </div>
