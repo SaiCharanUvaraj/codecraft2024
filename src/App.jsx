@@ -26,6 +26,9 @@
           <div className="my-8"> {/* Adjust spacing */}
             <Prize />
           </div>
+          <div className="my-8">
+            <Sponsors />
+          </div>
           <div className="my-8"> {/* Adjust spacing */}
             <Domain />
           </div>
