@@ -19,10 +19,10 @@ const PrizePool = () => {
           //   extraText: "Hurry! Only a limited number of seats remain.",
           //},
            {
-             title: 'Registration Fees',
-             amount: '₹400/team',
+             title: 'Registration Closed!!!',
+             amount: '₹xxx/team',
              subText: '',
-             extraText: "Hurry! Only a limited number of seats remain.",
+             extraText: "All slots are full , We will see you soon.",
            },
         ].map((offer, index) => (
           <div
