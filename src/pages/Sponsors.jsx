@@ -9,7 +9,7 @@ function Sponsors() {
       backgroundColor: '#000'
     }}>
       <h1 className="text-6xl font-semibold text-white pt-24" id="sponsors">
-        Sponsors
+        Sponsors section
       </h1>
     </div>
   );
