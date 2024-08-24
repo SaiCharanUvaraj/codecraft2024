@@ -83,7 +83,7 @@ const timelineEvents = [
   {
     time: "9:30 am",
     icon: <HourglassBottomIcon />,
-    title: "Hackathon ends",
+    title: "Countdown ends",
     dotColor: "primary",
     connectorColor: "secondary.main"
   },
