@@ -19,74 +19,95 @@ import HailIcon from '@mui/icons-material/Hail';
 
 const timelineEvents = [
   {
-    time: "9:30 am",
+    time: "9:15 am",
     icon: <HailIcon />,
     title: "Reporting",
     dotColor: "secondary",
     connectorColor: "default"
   },
   {
-    time: "10:00 am",
+    time: "9:30 am to 10:00 am",
     icon: <CelebrationIcon />,
     title: "Inaugural",
     dotColor: "primary",
     connectorColor: "default"
   },
   {
-    time: "11:00 am",
+    time: "10:00 am",
     icon: <HourglassTopIcon />,
-    title: "Countdown Starts!",
+    title: "Hackathon starts",
     dotColor: "secondary",
     connectorColor: "secondary.main"
   },
   {
-    time: "1:30 pm - 2:30 pm",
-    icon: <FastfoodIcon />,
-    title: "Lunch",
+    time: "12:30 pm to 1:30pm",
+    icon: <ReviewsIcon/>,
+    title: "Evaluation 1",
     dotColor: "primary",
     connectorColor: "secondary.main"
   }, {
-    time: "5:00 pm",
-    icon: <ReviewsIcon/>,
-    title: "Review",
+    time: "1:30 pm to 2:30 pm",
+    icon: <RestaurantIcon />,
+    title: "Lunch Break",
     dotColor: "secondary",
     connectorColor: "secondary.main"
   },
   {
-    time: "8:00 pm",
+    time: "5:30 pm to 6:00 pm",
+    icon: <FastfoodIcon />,
+    title: "Break",
+    dotColor: "primary",
+    connectorColor: "secondary.main"
+  },
+  {
+    time: "6:00 pm to 8:00 pm",
+    icon: <ReviewsIcon />,
+    title: "Evaluation 2",
+    dotColor: "secondary",
+    connectorColor: "secondary.main"
+  },
+  {
+    time: "8:00 pm to 9:00 pm",
     icon: <RestaurantIcon />,
     title: "Dinner",
     dotColor: "primary",
     connectorColor: "secondary.main"
   },
   {
-    time: "12:00 am",
-    icon: <ReviewsIcon/>,
-    title: "Review",
+    time: "7:30 am to 8:00 am",
+    icon: <RestaurantIcon />,
+    title: "Breakfast",
     dotColor: "secondary",
     connectorColor: "secondary.main"
   },
   {
-    time: "11:00 am",
+    time: "9:30 am",
     icon: <HourglassBottomIcon />,
-    title: "Countdown Ends!",
+    title: "Hackathon ends",
+    dotColor: "primary",
+    connectorColor: "secondary.main"
+  },
+  {
+    time: "9:30 am to 11:00 am",
+    icon: <ReviewsIcon />,
+    title: "Evaluation 3",
+    dotColor: "secondary",
+    connectorColor: "secondary.main"
+  },
+  {
+    time: "11:00 am to 11:30 am",
+    icon: <EmojiEventsIcon />,
+    title: "Valedictory",
     dotColor: "primary",
     connectorColor: "secondary.main"
   },
   {
     time: "11:30 am",
-    icon: <EmojiEventsIcon />,
-    title: "Valedictory",
+    icon: <WavingHandIcon />,
+    title: "Code Craft Ends",
     dotColor: "secondary",
     connectorColor: "secondary.main"
   },
-  {
-    time: "12:00 pm",
-    icon: <WavingHandIcon />,
-    title: "Code Craft Ends!!",
-    dotColor: "primary",
-    connectorColor: "secondary.main"
-  }
 ];
 
 export default function CustomizedTimeline() {
