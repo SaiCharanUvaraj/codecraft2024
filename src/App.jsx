@@ -39,7 +39,7 @@
             <CustomizedTimeline />
           </div>
           <div className='my-8'>
-            <Coord />
+            {/* <Coord /> */}
           </div>
           <div className="my-8"> {/* Adjust spacing */}
             <Stdcoord />

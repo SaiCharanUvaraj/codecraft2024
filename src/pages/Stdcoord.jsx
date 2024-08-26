@@ -9,21 +9,18 @@ export const Stdcoord = () => {
             <div>
                 <Std 
                 name="Guru Sanjay R K" 
-                no="+91 90032 68427"
                 />
             </div>
             <br />
             <div>
                 <Std 
                 name="Kamalesh Kumar Saravanan" 
-                no="+91 70014 00312"
                 />
             </div>
             <br />
             <div>
                 <Std 
                 name="Yogesh M" 
-                no="+91 87545 12892"
                 />
             </div>
         </div>
@@ -31,21 +28,18 @@ export const Stdcoord = () => {
             <div>
                 <Std 
                 name="Ruthi Shankari S"  
-                no="+91 94863 08851"
                 />
             </div>
             <br />
             <div>
                 <Std 
                 name="Sneha V" 
-                no="+91 73055 00879"
                 />
             </div>
             <br />
             <div>
                 <Std 
                 name="Shahana Devi V" 
-                no="+91 80151 35548"
                 />
             </div>
         </div>
