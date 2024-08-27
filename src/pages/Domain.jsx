@@ -23,11 +23,6 @@ const Domain = () => {
       title: "Artificial Intelligence",
       description:
         "Develop intelligent systems using the latest in AI and machine learning.",
-    },{
-      animationData: blockchain,
-      title: "Cyber Security",
-      description:
-        "Create secure systems with advanced Cryptography and Cybersecurity techniques",
     },
   ];
   return (
