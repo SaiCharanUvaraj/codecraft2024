@@ -3,7 +3,6 @@ import DomainCard from "../components/DomainCard";
 import aniData1 from "../assets/Animation - 1723345948359.json";
 import aniData2 from "../assets/Animation - 1723346095382.json";
 import aniData3 from "../assets/Animation - 1723453838766.json";
-import blockchain from '../assets/blockchain.json'
 const Domain = () => {
   const cards = [
     {
@@ -31,7 +30,7 @@ const Domain = () => {
       id="Domains"
     >
       <p className="text-center text-6xl font-semibold text-white pb-10 mt-8 font-outfit">Domains</p>
-      <div className="grid md:grid-cols-4 place-items-center gap-5 px-2">
+      <div className="grid md:grid-cols-3 place-items-center gap-5 px-2">
         {cards.map((card, index) => (
           <DomainCard
             key={index}
