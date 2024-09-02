@@ -2,7 +2,7 @@ import React from "react";
 import Countdown from "react-countdown";
 
 const CountdownToSeptember = () => {
-  const date = new Date("2024-09-02T10:10:00");
+  const date = new Date("2024-09-03T11:00:00");
 
   const renderer = ({ days, hours, minutes, seconds }) => {
     const time = [
